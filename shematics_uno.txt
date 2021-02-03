@@ -1,0 +1,42 @@
+UART_RX  (PD0) -> 0
+UART_TX  (PD1) -> 1
+PARA_CLK (PB0) -> 8
+PARA_D3  (PC3) -> A3
+PARA_D3  (PC2) -> A2
+PARA_D3  (PC1) -> A1
+PARA_D3  (PC0) -> A0
+SPI_SCK  (PB5) -> 13
+SPI_MISO (PB4) -> 12
+SPI_MOSI (PB3) -> 11
+SPI_SS   (PB2) -> 10
+PWM      (PB1) -> 9
+
+
+
+    _ _                 _ _ _
+ _ |   | _ _ _ _ _ _ _ |     | _ _ _
+|  |   |               |     |      |
+|  | _ |               | _ _ |  |o| |
+|                                   |
+|                                   |
+|                                  X|
+|                                  X|
+|                                  X|
+|                              GND X|
+|X                      SPI_SCK 13 X|
+|X                     SPI_MOSI 12 X|
+|X                     SPI_MOSI 11 X|
+|X                       SPI_SS 10 X|
+|X                          PWM  9 X|
+|X                                 X|
+|X                                  |
+|X                                 X|
+|                                  X|
+|X                                 X|
+|X                                 X|
+|X                                 X|
+|X                                 X|
+|X                                 X|
+|X           X X X                 X|
+|            X X X         _ _ _ _ /
+ \ _ _ _ _ _ _ _ _ _ _ _ /
