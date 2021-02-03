@@ -3,4 +3,4 @@ periode = 2.04ms
 frequence = 490.2
 etat bas = 1.184ms
 etat haut = 0.8561ms
-dutycycle = 0.8561/2.04
+dutycycle = 0.8561ms / 2.04ms = 42%
