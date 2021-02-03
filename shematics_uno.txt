@@ -28,7 +28,7 @@ PWM      (PB1) -> 9
 |X RESET                     SPI_MOSI 11 X|
 |X 3V3                         SPI_SS 10 X|
 |X 5V                             PWM  9 X|
-|X GND                        PARA_CLK 8 X|
+|X GND                       PARA_CLK  8 X|
 |X GND                                    |
 |X                                       X|
 |                                        X|

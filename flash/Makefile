@@ -39,7 +39,6 @@ hex:
 	@$(COMPILE) -o $(FILENAME).bin $(FILENAME).o
 	@echo "$(COLOR)Binary \033[100D\033[40C\0033[1;32m[Created]\0033[1;37m"
 	@avr-objcopy -j .text -j .data -O ihex $(FILENAME).bin $(FILENAME).hex
-
 	@if [ $(MUTE) = FALSE ];then\
 		avr-size --format=avr --mcu=$(DEVICE) $(FILENAME).bin;\
 	fi
