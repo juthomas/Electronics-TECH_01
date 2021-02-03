@@ -1,0 +1,3 @@
+Baudrate = 2000000
+Mode = 8N1 (8 bits de données, pas de parité (N), 1 bit de stop.)
+Data = Bravo tu as trouve la premiere clef IEiSmWKavxo

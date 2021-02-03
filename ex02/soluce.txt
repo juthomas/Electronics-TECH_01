@@ -1,0 +1,3 @@
+Baudrate = 5Khz
+Mode = MSB 8 bits de données
+Data = Hourra! voici la 2eme clef jjTOYerHRVo

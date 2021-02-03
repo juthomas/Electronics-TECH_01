@@ -24,7 +24,7 @@ PWM      (PB1) -> 9
 |                                        X|
 |                                    GND X|
 |X                            SPI_SCK 13 X|
-|X                           SPI_MOSI 12 X|
+|X                           SPI_MISO 12 X|
 |X RESET                     SPI_MOSI 11 X|
 |X 3V3                         SPI_SS 10 X|
 |X 5V                             PWM  9 X|
