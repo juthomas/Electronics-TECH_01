@@ -36,7 +36,7 @@ PWM      (PB1) -> 9
 |X A1 PARA_D1                            X|
 |X A2 PARA_D2                            X|
 |X A3 PARA_D3                            X|
-|X                             UART_TX 1 X|
+|X                  ISP        UART_TX 1 X|
 |X                 X X X       UART_RX 0 X|
 |                  X X X         _ _ _ _ /
  \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
