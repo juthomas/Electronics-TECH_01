@@ -13,30 +13,30 @@ PWM      (PB1) -> 9
 
 
 
-    _ _                 _ _ _
- _ |   | _ _ _ _ _ _ _ |     | _ _ _
-|  |   |               |     |      |
-|  | _ |               | _ _ |  |o| |
-|                                   |
-|                                   |
-|                                  X|
-|                                  X|
-|                                  X|
-|                              GND X|
-|X                      SPI_SCK 13 X|
-|X                     SPI_MOSI 12 X|
-|X RESET               SPI_MOSI 11 X|
-|X 3V3                   SPI_SS 10 X|
-|X 5V                       PWM  9 X|
-|X GND                  PARA_CLK 8 X|
-|X GND                              |
-|X                                 X|
-|                                  X|
-|X A0 PARA_D0                      X|
-|X A1 PARA_D1                      X|
-|X A2 PARA_D2                      X|
-|X A3 PARA_D3                      X|
-|X                       UART_TX 1 X|
-|X           X X X       UART_RX 0 X|
-|            X X X         _ _ _ _ /
- \ _ _ _ _ _ _ _ _ _ _ _ /
+    _ _                       _ _ _
+ _ |   | _ _ _ _ _ _ _ _ _ _ |     | _ _ _
+|  |   |                     |     |      |
+|  | _ |                     | _ _ |  |o| |
+|                                         |
+|                                         |
+|                                        X|
+|                                        X|
+|                                        X|
+|                                    GND X|
+|X                            SPI_SCK 13 X|
+|X                           SPI_MOSI 12 X|
+|X RESET                     SPI_MOSI 11 X|
+|X 3V3                         SPI_SS 10 X|
+|X 5V                             PWM  9 X|
+|X GND                        PARA_CLK 8 X|
+|X GND                                    |
+|X                                       X|
+|                                        X|
+|X A0 PARA_D0                            X|
+|X A1 PARA_D1                            X|
+|X A2 PARA_D2                            X|
+|X A3 PARA_D3                            X|
+|X                             UART_TX 1 X|
+|X                 X X X       UART_RX 0 X|
+|                  X X X         _ _ _ _ /
+ \ _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
